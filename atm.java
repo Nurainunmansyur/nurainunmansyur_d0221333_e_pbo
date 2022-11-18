@@ -16,7 +16,7 @@ public class atm {
         if (pin.equals("1234 5678")){
             Try = "";
             do{
-                transaksi:
+                transaksi();
                 System.out.println("\naApakah Anda ingin mencoba lagi? Y/N");
                 Try = input.nextLine();
             }while (Try.equalsIgnoreCase("Y"));
